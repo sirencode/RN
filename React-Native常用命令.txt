@@ -6,6 +6,10 @@ https://raw.githubusercontent.com/Homebrew/install/master/install)”
 
 2.安装node.js : brew install node
 
+sudo chown -R $(whoami) /usr/local/share/systemtap
+
+brew link node
+
 3. 安装watchman :
 brew install watchman
 
